@@ -38,6 +38,7 @@ body{
     align-items: center;
     height: 90vh;
     flex-wrap: wrap;
+    padding-bottom:1.5rem;
 }
 
 .card {
@@ -80,6 +81,10 @@ body{
     color: white;
 }
 
+.description p{
+    text-decoration:uppercase;
+}
+
 .card:hover .description {
     top: 0;
     height: 100%;
@@ -92,4 +97,8 @@ body{
 .container{
 margin-top:70px;
 }
+  
+    .shehacks{
+        font-size:1rem;
+    }
 }
