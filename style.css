@@ -6,8 +6,7 @@
 
 body{
     font-family: "Poppins" , sans-serif;
-    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("image/background.png");
-    background:#171010 ;
+    background-image:url(/images/peter-gargiulo-cGNCepznaV8-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -16,12 +15,17 @@ body{
 
 
 .shehack {
-display:inline-block;
-margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color:#F8F0DF;
     height: 10vh;
-    font-size: 5rem;
+    font-size: 2rem;
+    padding-top: 3rem;
+}
 
+.shehack img{
+    width: 50px;
 }
 
 .card-text h2{
