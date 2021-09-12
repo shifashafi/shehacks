@@ -6,6 +6,7 @@
 
 body{
     font-family: "Poppins" , sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("image/background.png");
     background:#171010 ;
     background-repeat: no-repeat;
     background-position: center center;
@@ -13,10 +14,14 @@ body{
     text-align: center;  
 }
 
+
 .shehack {
+display:inline-block;
+margin:10px;
     color:#F8F0DF;
     height: 10vh;
     font-size: 5rem;
+
 }
 
 .card-text h2{
@@ -80,6 +85,7 @@ body{
     .card:not(:last-child){
   margin-bottom: 1.5rem; 
     }
+.container{
+margin-top:70px;
 }
-
-
+}
