@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins" , sans-serif;
+    background:#171010 ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;  
+}
+
+.shehack {
+    color:white;
+    height: 10vh;
+    font-size: 5rem;
+}
+
+.card-text h2{
+  margin-bottom: 1.3rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90vh;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    background: white;
+    padding: 1.5rem 1rem;
+    border-radius: 5px;
+    min-height: 400px;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card img{
+    width: 50%;
+    border-radius: 50%;
+    margin-bottom: 1.3rem;
+}
+
+.description {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.description img {
+    margin-top: 1rem;
+    width: 50px;
+    margin-bottom: 0;
+}
+
+.description h1, .description p {
+    color: white;
+}
+
+.card:hover .description {
+    top: 0;
+    height: 100%;
+}
+
+@media(max-width:720px) {
+    .card:not(:last-child){
+  margin-bottom: 1.5rem; 
+    }
+}
+
+
