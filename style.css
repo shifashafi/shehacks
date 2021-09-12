@@ -81,10 +81,6 @@ body{
     color: white;
 }
 
-.description p{
-    text-decoration:uppercase;
-}
-
 .card:hover .description {
     top: 0;
     height: 100%;
